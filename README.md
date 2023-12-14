@@ -4,4 +4,4 @@
 <br>
 <h2>Primeiro Dia</h2>
 <p><strong>Informações principais do perfil</strong></p>
-<img src="">
+<img src="primeiro-dia.png">
