@@ -48,3 +48,24 @@ h1 {color: rgba(255, 255, 255, 0.90); font-size: 24px; font-weight: 500;}
 .botao-mais {background-color: rgba(255, 255, 255, 0.00); border-style: none; border-radius: 16px; border: 1px solid #70B5F9; padding: 6px 48px; color: #70B5F9; font-size: 14px; font-weight: 500; cursor: pointer;}
 
 .relacoes {color: rgba(255, 255, 255, 0.90); font-size: 16px; font-weight: 500;}
+
+/*Menu de Navegação*/
+
+header {background-color: #1B2226; display: flex; width: 1440px; height: 52px; align-items: center; margin: 0 auto;}
+
+header > img {margin-left: 153px; margin-right: 8px;}
+
+.search-box {display: flex; align-items: center; background-color: #38434F; width: 280px; height: 34px; border-radius: 4px;}
+header > .search-box > input {background-color: #38434F; border: none; width: 220px; height: 30px; outline: none;}
+header > .search-box > img {width: 24px; height: 24px; padding: 5px 8px 5px 8px;}
+
+.navegacao {display: flex; margin-left: 92px;}
+.navegacao > a {display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;}
+.navegacao > a > img {width: 24px; height: 24px;}
+.navegacao > a > span {width: 80px; height: 14px;}
+
+header hr {color: rgba(255, 255, 255, 0.60); height: 52px; width: 1px; margin: 0 4px; borde}
+
+/*Estilização de texto (Menu de Navegação)*/
+#pesquisar::placeholder {color: rgba(255, 255, 255, 0.90); font-size: 14px; font-weight: 400; padding: 4px;}
+.navegacao > a > span {color: rgba(255, 255, 255, 0.90); font-size: 12px; font-weight: 400;}
