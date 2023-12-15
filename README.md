@@ -6,7 +6,7 @@
 <p><strong>Informações principais do perfil</strong></p>
 <img src="primeiro-dia.png">
 <br>
-<h2>Segundo Diaa</h2>
+<h2>Segundo Dia</h2>
 <p><strong>Menu de Navegação</strong></p>
 <img src="segundo-dia.png">
 <p>Obs.: eu (ainda) não consegui tirar aquela duplicação da linha de separação (hr)</p>
