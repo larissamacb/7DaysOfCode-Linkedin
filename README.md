@@ -15,3 +15,8 @@
 <p><strong>Publicações em Destaque</strong></p>
 <img src="terceiro-dia.png">
 <p>Ajustei a página pra já ficar mais parecida com a original e mais algumas coisas dos dias anteriores. Arrumei inclusive a linha duplicada, mas não está visível porque levei o menu de navegação pra cima.</p>
+<br>
+<h2>Quarto Dia</h2>
+<p><strong>Atividades Recentes e Sobre</strong></p>
+<img src="quarto-dia.png">
+<br>
