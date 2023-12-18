@@ -2,6 +2,7 @@
 
 * {margin: 0; padding: 0; box-sizing: border-box;}
 a {text-decoration: none;}
+li {list-style: none;}
 h1, h2, h3, span, a, p, button {font-family: 'Roboto', sans-serif;}
 
 body {background-color: #000;}
@@ -193,3 +194,47 @@ header hr {color: rgba(255, 255, 255, 0.60); height: 52px; margin: 0 4px;}
 
 /*Estilização de texto (Sobre)*/
 .sobre > p {color: #FFF; font-size: 14px; font-weight: 400; text-align: justify; width: 732px; margin-left: 24px; margin-top: 10px; line-height: 20px;}
+
+/*Experiências*/
+
+.experiencias {
+    background-color: #1B2226;
+    width: 780px;
+    height: 358px;
+    border-radius: 16px;
+    margin-left: 154px;
+    margin-bottom: 8px;
+}
+
+.experiencias-conteudo {
+    padding: 16px 24px;
+}
+
+.empresa {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.cargo {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 8px;
+}
+
+.cargo-detalhes {
+    display: flex;
+    flex-direction: column;
+}
+
+.cargos {
+    margin-left: 20px;
+}
+
+
+/*Estilização de texto (Experiências)*/
+.empresa-direita > h3, .cargo-detalhes > h3 {color: rgba(255, 255, 255, 0.90); font-size: 16px; font-weight: 600;}
+.cargo-descricao {color: rgba(255, 255, 255, 0.60); font-size: 14px; font-weight: 400;}
+.periodo {color: rgba(255, 255, 255, 0.90); font-size: 14px; font-weight: 400;}
+
