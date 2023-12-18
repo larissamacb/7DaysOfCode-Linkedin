@@ -24,3 +24,7 @@
 <p><strong>Experiências</strong></p>
 <img src="quinto-dia.png">
 <br>
+<h2>Sexto Dia</h2>
+<p><strong>Formação Acadêmica e Idiomas</strong></p>
+<img src="sexto-dia.png">
+<br>
