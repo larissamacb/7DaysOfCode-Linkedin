@@ -238,3 +238,53 @@ header hr {color: rgba(255, 255, 255, 0.60); height: 52px; margin: 0 4px;}
 .cargo-descricao {color: rgba(255, 255, 255, 0.60); font-size: 14px; font-weight: 400;}
 .periodo {color: rgba(255, 255, 255, 0.90); font-size: 14px; font-weight: 400;}
 
+/*Formação Acadêmica*/
+
+.formacao-academica {
+    background-color: #1B2226;
+    width: 780px;
+    height: 127px;
+    border-radius: 16px;
+    margin-left: 154px;
+    margin-bottom: 8px;
+    
+}
+
+.formacao-academica-conteudo {
+    padding: 16px 24px;
+    display: flex;
+    gap: 9px;
+}
+
+.formacao-academica-conteudo > img {width: 48px; height: 48px;}
+
+.formacad-conteudo-direita {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Estilização de texto (Formação Acadêmica)*/
+.formacad-conteudo-direita > h3 {color: rgba(255, 255, 255, 0.90); font-size: 16px; font-weight: 600; line-height: 20px;}
+.nome-do-curso {color: rgba(255, 255, 255, 0.90); font-size: 14px; font-weight: 400;}
+.data-curso {color: rgba(255, 255, 255, 0.60); font-size: 14px; font-weight: 400;}
+
+/*Idiomas*/
+
+.idiomas {
+    background-color: #1B2226;
+    width: 780px;
+    height: 178px;
+    border-radius: 16px;
+    margin-left: 154px;
+    margin-bottom: 8px;
+}
+
+.idiomas-conteudo {
+    padding: 8px 24px;
+}
+
+.idiomas-conteudo > hr {color: rgba(255, 255, 255, 0.60); width: 700px; margin-top: 12px; margin-bottom: 12px;}
+
+/*Estilização de texto (Idiomas)*/
+.idiomas-conteudo > h3 {color: #FFF; font-size: 16px; font-weight: 600; line-height: 25px;}
+.idiomas-conteudo > span {color: rgba(255, 255, 255, 0.60); font-size: 14px; font-weight: 400;}
