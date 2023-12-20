@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
 
 * {margin: 0; padding: 0; box-sizing: border-box;}
 a {text-decoration: none;}
@@ -11,7 +11,6 @@ body {background-color: #000;}
 
 .informacoes-principais {
     margin-top: 24px;
-    margin-left: 154px;
 }
 
 .informacoes-principais-1 {
@@ -105,7 +104,6 @@ header hr {color: rgba(255, 255, 255, 0.60); height: 52px; margin: 0 4px;}
     background-color: #1B2226;
     border-radius: 16px;
     margin-top: 8px;
-    margin-left: 153px;
     margin-bottom: 14px;
 }
 
@@ -150,7 +148,6 @@ header hr {color: rgba(255, 255, 255, 0.60); height: 52px; margin: 0 4px;}
     width: 780px;
     height: 365px;
     background-color: #1B2226;
-    margin-left: 154px;
     border-radius: 16px;
     margin-bottom: 8px;
 }
@@ -188,7 +185,6 @@ header hr {color: rgba(255, 255, 255, 0.60); height: 52px; margin: 0 4px;}
     height: 134px;
     background-color: #1B2226;
     border-radius: 16px;
-    margin-left: 154px;
     margin-bottom: 8px;
 }
 
@@ -202,7 +198,6 @@ header hr {color: rgba(255, 255, 255, 0.60); height: 52px; margin: 0 4px;}
     width: 780px;
     height: 358px;
     border-radius: 16px;
-    margin-left: 154px;
     margin-bottom: 8px;
 }
 
@@ -245,7 +240,6 @@ header hr {color: rgba(255, 255, 255, 0.60); height: 52px; margin: 0 4px;}
     width: 780px;
     height: 127px;
     border-radius: 16px;
-    margin-left: 154px;
     margin-bottom: 8px;
     
 }
@@ -275,7 +269,6 @@ header hr {color: rgba(255, 255, 255, 0.60); height: 52px; margin: 0 4px;}
     width: 780px;
     height: 178px;
     border-radius: 16px;
-    margin-left: 154px;
     margin-bottom: 8px;
 }
 
@@ -288,3 +281,52 @@ header hr {color: rgba(255, 255, 255, 0.60); height: 52px; margin: 0 4px;}
 /*Estilização de texto (Idiomas)*/
 .idiomas-conteudo > h3 {color: #FFF; font-size: 16px; font-weight: 600; line-height: 25px;}
 .idiomas-conteudo > span {color: rgba(255, 255, 255, 0.60); font-size: 14px; font-weight: 400;}
+
+/*Seções de Sugestão de Perfis*/
+
+.tambem-viram, .talvez-conheca {
+    width: 320px;
+    height: 546px;
+    background-color: #1B2226;
+    margin-bottom: 8px;
+    border-radius: 16px;
+    
+}
+
+.sugestao {
+    width: 284px;
+    height: 83px;
+    display: flex;
+    gap: 6px;
+    margin: 0 auto 16px auto;
+}
+
+.sugestao > img {width: 48px; height: 48px; border-radius: 24px;}
+
+.sugestao > div > button {
+    width: 154px;
+    height: 28px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.90);
+    margin-top: 8px;
+    background-color: transparent;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.talvez-conheca > .sugestao > div > button {
+    width: 99px;
+    height: 28px;
+}
+
+.sugestao > div {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Estilização de texto (Seções de Sugestão de Perfis)*/
+.titulo-cards-direita {font-family: Inter, sans-serif; color: rgba(255, 255, 255, 0.90); font-size: 16px; font-weight: 700; padding-top: 16px; padding-left: 16px; margin-bottom: 16px;}
+.sugestao > div > h3 {font-family: Inter, sans-serif; color: #FFF; font-size: 14px; font-weight: 700;}
+.sugestao > div > p {font-family: Inter, sans-serif; color: rgba(255, 255, 255, 0.60); font-size: 12px; font-weight: 400;}

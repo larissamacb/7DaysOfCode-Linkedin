@@ -28,3 +28,9 @@
 <p><strong>Formação Acadêmica e Idiomas</strong></p>
 <img src="sexto-dia.png">
 <br>
+<h2>Sétimo Dia</h2>
+<p><strong>Seções de Sugestões de Perfis</strong></p>
+<img src="setimo-dia-1.png">
+<img src="setimo-dia-2.png">
+<p>Desfiz as margens à esquerda dos cards pra arrumar a organização deles no site do jeito certo, mas ainda tô descobrindo como faz isso.
+<br>
